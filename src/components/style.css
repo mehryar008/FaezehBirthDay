@@ -1,0 +1,29 @@
+.main_back {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center;
+  background-attachment: fixed;
+}
+@font-face {
+  font-family: "sahel";
+  src: url("../fonts/sahel.ttf");
+}
+@font-face {
+  font-family: "flash";
+  src: url("../fonts/flash.ttf");
+}
+.font-flash {
+  font-family: "flash";
+}
+
+.font-sahel {
+  font-family: "sahel", sans-serif;
+}
+
+.line {
+  white-space: pre-line;
+}
